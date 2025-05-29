@@ -10,7 +10,7 @@ weights = np.array([0.25, 0.25, 0.25, 0.25])  # Equal weighting
 # Download historical adjusted closing prices
 start_date = '2020-01-01'
 end_date = '2024-01-01'
-prices = yf.download(tickers, start=start_date, end=end_date)['Adj Close']
+prices = yf.download(tickers, start=start_date, end=end_date)['Close']
 
 # Compute daily returns
 daily_returns = prices.pct_change().dropna()
