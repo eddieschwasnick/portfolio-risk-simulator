@@ -27,7 +27,7 @@ This project uses Python to simulate the forward returns of a stock portfolio us
 
 ### Sample Output
 
-<img width="816" alt="Screenshot 2025-05-30 at 12 03 02 AM" src="https://github.com/user-attachments/assets/24979f74-f106-47bc-8282-d6bc02ccc3bd" />
+![Drawdown Histogram](drawdown_distribution.png)
 
 ### Dependencies
 
